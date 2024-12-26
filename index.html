@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>OTP Verification Page</h1> 
+    <div id="msg-container hide">
+        <p id="msg"></p>
+    </div>
+
+    <section>
+        <span>OTP Verification</span>
+        <div class="otp-container">
+           <input type="text"  id="otp-box1" maxlength="1">
+           <input type="text"  id="otp-box2" maxlength="1">
+           <input type="text"  id="otp-box3" maxlength="1">
+           <input type="text"  id="otp-box4" maxlength="1">
+        </div> 
+        <button id="get-otp">Get OTP</button>
+        <div id="otp-msg">
+            <span id="msg-b1">Don't get the OTP?</span>
+            <button id="resend-btn">Resend</button>
+        </div>
+              <button id="verify-btn">Verify</button>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
